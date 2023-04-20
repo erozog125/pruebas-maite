@@ -7,7 +7,7 @@ import { Footer } from "./components/layouts/footer/Footer";
 import { Procedimientos } from "./components/pages/procedimientos/Procedimientos";
 import { Nosotros } from "./components/pages/nosotros/Nosotros";
 import {Clinica} from "./components/pages/clinica/Clinica";
-import { Blog } from "./components/pages/Blog/Blog";
+// import { Blog } from "./components/pages/Blog/Blog";
 function App() {
   return (
     <>
@@ -18,7 +18,7 @@ function App() {
         <Route path="/Procedimientos" element={<Procedimientos />} />
         <Route path="/Nosotros" element={<Nosotros />} />
         <Route path="/Clinica" element={<Clinica />} />
-        <Route path="/Blog" element={<Blog />} />
+        {/* <Route path="/Blog" element={<Blog />} /> */}
       </Routes>
     <Footer />
     </>
